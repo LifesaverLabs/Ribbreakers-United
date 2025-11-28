@@ -35,7 +35,7 @@ const GoodSamaritan = () => {
               <p className="text-lg text-muted-foreground">
                 If you're on the phone with emergency services (911, 112, 119, etc.), they will guide you 
                 through CPR step-by-step. You have <strong className="text-foreground">super-high legal protection</strong> in 
-                this scenario. Even if you can't call first—like rescuing someone from drowning without cellular 
+                this scenario. Even if you can't call first—like rescuing someone from drowning or without charge on your phone or cellular 
                 service—you're still heavily protected by Good Samaritan laws when acting in good faith to save a life.
               </p>
             </div>
