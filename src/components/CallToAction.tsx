@@ -79,7 +79,7 @@ const CallToAction = () => {
               <div className="pt-4 border-t border-border">
                 <p className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
                   <Smartphone className="w-4 h-4" />
-                  Download PulsePoint
+                  Download PulsePoint: Save Thy Naybor
                 </p>
                 <div className="grid grid-cols-2 gap-3">
                   <Button 
