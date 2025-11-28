@@ -53,13 +53,29 @@ const CallToAction = () => {
               Find CPR/AED/First Aid certification courses in your area. 
               Make sure your certification is less than 5 years old.
             </p>
-            <Button 
-              className="bg-primary hover:bg-crimson-dark text-primary-foreground font-bold w-full group"
-              size="lg"
-            >
-              Find Training Near You
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <div className="space-y-3">
+              <Button 
+                asChild
+                className="bg-primary hover:bg-crimson-dark text-primary-foreground font-bold w-full group"
+                size="lg"
+              >
+                <a href="https://cpr.heart.org/en/course-catalog-search" target="_blank" rel="noopener noreferrer">
+                  Find Training Near You
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </Button>
+              <Button 
+                asChild
+                variant="outline"
+                className="w-full group border-primary text-foreground hover:bg-primary/10"
+                size="lg"
+              >
+                <a href="https://teardownthisfirewall.org" target="_blank" rel="noopener noreferrer">
+                  Tear Down This Firewall
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </Button>
+            </div>
           </motion.div>
 
           <motion.div

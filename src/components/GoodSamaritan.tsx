@@ -28,6 +28,18 @@ const GoodSamaritan = () => {
           </h2>
 
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-soft border-2 border-border">
+            <div className="bg-primary/10 border-2 border-primary rounded-xl p-6 mb-6">
+              <p className="text-2xl font-bold text-foreground mb-2">
+                You Don't Need CPR Training to Be a Ribbreaker
+              </p>
+              <p className="text-lg text-muted-foreground">
+                If you're on the phone with emergency services (911, 112, 119, etc.), they will guide you 
+                through CPR step-by-step. You have <strong className="text-foreground">super-high legal protection</strong> in 
+                this scenario. Even if you can't call first—like rescuing someone from drowning without cellular 
+                service—you're still heavily protected by Good Samaritan laws when acting in good faith to save a life.
+              </p>
+            </div>
+
             <p className="text-xl text-muted-foreground leading-relaxed mb-6">
               <span className="font-bold text-primary">Good Samaritan laws</span> protect 
               people who provide emergency medical assistance to those who are injured or 
