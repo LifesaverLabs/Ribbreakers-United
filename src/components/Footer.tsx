@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <div className="border-t border-primary-foreground/20 pt-6 mt-6">
             <p className="text-cream/80 text-sm mb-3">
-              An Initiative of <strong>Lifesaver Labs</strong> and <strong>Naybor SOS</strong> / Neighbor 112/911/119/15/etc.
+              An Initiative of <strong>Lifesaver Labs™ Coalition</strong> and <strong>Naybor SOS™</strong> / the Neighbor 112/911/119/15/etc. family
             </p>
             <p className="text-cream/70 text-sm mb-3">
               All content is dedicated to the public domain under{" "}
