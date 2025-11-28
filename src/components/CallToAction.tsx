@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ArrowRight, GraduationCap, Heart } from "lucide-react";
+import { ArrowRight, GraduationCap, Heart, Smartphone } from "lucide-react";
 
 const CallToAction = () => {
   const [ref, inView] = useInView({
@@ -75,6 +75,35 @@ const CallToAction = () => {
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
+              
+              <div className="pt-4 border-t border-border">
+                <p className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
+                  <Smartphone className="w-4 h-4" />
+                  Download PulsePoint
+                </p>
+                <div className="grid grid-cols-2 gap-3">
+                  <Button 
+                    asChild
+                    variant="secondary"
+                    className="w-full"
+                    size="sm"
+                  >
+                    <a href="https://apps.apple.com/us/app/pulsepoint-respond/id500772134" target="_blank" rel="noopener noreferrer">
+                      iOS
+                    </a>
+                  </Button>
+                  <Button 
+                    asChild
+                    variant="secondary"
+                    className="w-full"
+                    size="sm"
+                  >
+                    <a href="https://play.google.com/store/apps/details?id=mobi.firedepartment" target="_blank" rel="noopener noreferrer">
+                      Android
+                    </a>
+                  </Button>
+                </div>
+              </div>
             </div>
           </motion.div>
 
