@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# Ribbreakers United
 
-## Project info
+**We Break Ribs to Save Lives**
 
-**URL**: https://lovable.dev/projects/5365965f-8ae9-42b1-b774-e8d77b511e8c
+Ribbreakers United is a community-driven initiative to normalize life-saving chest compressions and overcome bystander hesitation during cardiac emergencies. This repository contains the source code for our website.
 
-## How can I edit this code?
+## Our Mission
 
-There are several ways of editing your application.
+We're uniting the CPR community worldwide to ensure everyone has the skills and confidence to act when seconds matter. Our goals include:
 
-**Use Lovable**
+- **Normalize Rib-Breaking**: Transform rib fractures from a feared outcome into a point of pride—a sign of proper, life-saving CPR technique
+- **Universal Training Access**: Advocate for government-sponsored free CPR/AED/First Aid training accessible to everyone 13 and older
+- **Strengthen Good Samaritan Protections**: Educate the public about legal protections that shield responders from liability
+- **Institutional Support**: Push for mandates, tax incentives, and policies that keep CPR certifications fresh
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5365965f-8ae9-42b1-b774-e8d77b511e8c) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with modern web technologies:
 
-**Use your preferred IDE**
+- **React** - UI framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Re-usable component library
+- **Framer Motion** - Animation library
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js & npm (we recommend [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Lint code
+npm run lint
 ```
 
-**Edit a file directly in GitHub**
+## Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+We welcome contributions from the community! Whether it's bug fixes, new features, or documentation improvements, your help makes this project better.
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project uses a dual-license approach:
 
-## What technologies are used for this project?
+- **Code**: Licensed under the [MIT License](LICENSE-CODE) - Copyright (c) 2025 Lifesaver Labs Coalition
+- **Content**: Licensed under [CC0 1.0 Universal](LICENSE-CONTENT) - Public domain dedication
 
-This project is built with:
+This means the code is freely available for reuse with attribution, while the educational content is in the public domain for maximum accessibility and impact.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## About Lifesaver Labs Coalition
 
-## How can I deploy this project?
+Ribbreakers United is a project of Lifesaver Labs Coalition, dedicated to advancing emergency response education and removing barriers to life-saving interventions.
 
-Simply open [Lovable](https://lovable.dev/projects/5365965f-8ae9-42b1-b774-e8d77b511e8c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Remember**: Quality CPR means broken ribs—and that's a sign you're doing it right.
